@@ -10,9 +10,9 @@ app.config['BASIC_AUTH_FORCE'] = True
 auth = BasicAuth(app)
 
 students = [
-    {"std_id": 1, "Name": "Dina"},
-    {"std_id": 2, "Name": "Dino"},
-    {"std_id": 3, "Name": "Dini"}
+    {"std_id": 1, "name": "Dina"},
+    {"std_id": 2, "name": "Dino"},
+    {"std_id": 3, "name": "Dini"}
 ]
 
 @app.route("/")
